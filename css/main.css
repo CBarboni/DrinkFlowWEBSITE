@@ -339,7 +339,7 @@ img,video{
     -moz-transition: all 0.3s ease;
     -o-transition: all 0.3s ease;
     -ms-transition: all 0.3s ease;
-    border-radius: 12px;
+    border-radius: 22px;
   }
 
   #cta-lead-hero {
@@ -379,8 +379,8 @@ img,video{
     -ms-transform: rotateZ(45deg);
   }
   #cta-lead-hero:hover {
-    background-color: #ffcc00;
-    color: #353535;
+    background-color: #C000FF;
+    color: white;
   }
   #cta-lead-hero:hover .reflexo {
     transition: all 0.8s ease;
@@ -712,41 +712,63 @@ img,video{
 .border-solid{
     border-style:solid
 }
+
+/*botao download*/
+.botaodownload{
+    --tw-border-opacity: 1;
+    border-color:rgb(192 0 255 / var(--tw-border-opacity)) !important;
+    color: rgb(192, 0, 255) !important;
+}
+.botaodownload:hover{
+    --tw-border-opacity: 1;
+    border-color:rgb(192 0 255 / var(--tw-border-opacity)) !important;
+    background-color: rgb(192, 0, 255) !important;
+    color: white !important;
+}
+/*borda dos botoes principais e detalhe circulo borda e vazio*/
 .border-primary-500{
     --tw-border-opacity: 1;
-    border-color:rgb(255 204 0 / var(--tw-border-opacity))
+    border-color:rgb(61 73 180 / var(--tw-border-opacity))
 }
+/*divisor do footer*/
 .border-gray-400{
     --tw-border-opacity: 1;
-    border-color:rgb(156 163 175 / var(--tw-border-opacity))
+    border-color:rgb(192 0 255 / var(--tw-border-opacity))
 }
+/*fundo do site e navbar*/
 .bg-gray-800{
     --tw-bg-opacity: 1;
-    background-color:rgb(34 34 34 / var(--tw-bg-opacity))
+    background-color:rgb(179 186 244 / var(--tw-bg-opacity))
 }
+/*fundo de botoes e detalhes circulo quadrado menores*/
 .bg-primary-500{
     --tw-bg-opacity: 1;
-    background-color:rgb(255 204 0 / var(--tw-bg-opacity))
+    background-color:rgb(192 0 255 / var(--tw-bg-opacity))
 }
+/*cor do icone 1 e 4 */
 .bg-blue-500{
     --tw-bg-opacity: 1;
     background-color:rgb(59 130 246 / var(--tw-bg-opacity))
 }
+/*cor do ícone 3 e 6 */
 .bg-green-500{
     --tw-bg-opacity: 1;
     background-color:rgb(34 197 94 / var(--tw-bg-opacity))
 }
+/*Cor do ícone 2 e 5 */
 .bg-yellow-500{
     --tw-bg-opacity: 1;
     background-color:rgb(234 179 8 / var(--tw-bg-opacity))
 }
+/*icone redes sociais footer */
 .bg-gray-400{
     --tw-bg-opacity: 1;
-    background-color:rgb(156 163 175 / var(--tw-bg-opacity))
+    background-color:rgb( 192 0 255 / var(--tw-bg-opacity))
 }
+/*segunda parte do fundo da pagina*/
 .bg-gray-500{
     --tw-bg-opacity: 1;
-    background-color:rgb(51 51 51 / var(--tw-bg-opacity))
+    background-color:rgb(61 73 180 / var(--tw-bg-opacity))
 }
 .p-4{
     padding:1rem
@@ -773,6 +795,9 @@ img,video{
 .px-4{
     padding-left:1rem;
     padding-right:1rem
+}
+.px-4:hover{
+    color: #C000FF !important;
 }
 .py-32{
     padding-top:8rem;
